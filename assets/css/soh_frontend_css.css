@@ -1,0 +1,145 @@
+.soh_alert_notification_main {
+    min-height: 400px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    color: #ffffff;
+    background-color: #2e60c5;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 30%);
+}
+.soh_alert_notification_inner {
+    padding: 20px 55px 0;
+    font-size: 22px;
+    text-align: center;
+}
+.soh_alert_status {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.soh_modal_icon_middle.soh_modal_icon_circle {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.soh_modal_icon_middle img {
+    margin: 0 auto;
+}
+i.soh_modal_close_icon.soh_icon.soh_icon_close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-left: auto;
+    font-size: 35px;
+    font-family: zh-iconfont!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+}
+div#soh_modal_content {
+    height: 80%;
+    background-color: #6381bf;
+    padding: 0 20px 20px;
+    border-radius: 0 0 8px 8px;
+}
+h3.soh_modal_schedule_header {
+    padding-top: 0.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+.soh_modal_schedule {
+    z-index: 2;
+    position: relative;
+    padding-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 25%);
+    font-size: 16px;
+}
+#soh_modal_content > div {
+    padding-left: 2rem;
+}
+.soh_modal_schedule > div {
+    flex: 1 1 50%;
+}
+.soh_modal_close_icon img {
+    max-width: 60% !important;
+}
+
+.soh_alert_notification_popup_widget {
+    bottom: 0;
+    display: flex;
+    z-index: 999;
+    flex-direction: row;
+    position: fixed;
+    right: 0;
+    max-width: 40vw;
+    height: 60px;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 30%);
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #2e60c5;
+    cursor: pointer;
+}
+.soh_alert_notification_popup_widget_arrow {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+}
+.soh_alert_notification_popup_widget_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px 0 30px;
+    margin: 0 auto;
+}
+.soh_alert_notification_popup_widget_top_part {
+    display: flex;
+    align-items: center;
+}
+i.soh_clock_icon {
+    font-size: 30px;
+    margin-right: 10px;
+    position: relative;
+    width: 20px;
+}
+.soh_icon {
+    font-family: zh-iconfont!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.soh_widget_countdown {
+    font-size: 10px;
+}
+.soh_alert_show_popup_background {
+    position: fixed;
+    z-index: 9999;
+    padding-top: 350px;
+    padding-bottom: 300px;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #00000061;
+}

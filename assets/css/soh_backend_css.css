@@ -1,0 +1,91 @@
+img.soh_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.soh-tab-content{
+	display: none;
+}
+.soh-tab-content.soh-current{
+	display: block;
+}
+ul.tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+}
+li.tab-link {
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-left: 0px;
+    margin-right: 2px;
+    background-color: #0071a1!important;
+    color: #fff!important;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+}
+li.tab-link.soh-current {
+    background-color: #fff!important;
+    color: #000!important;
+    width: 100px;
+    text-align: center;
+}
+div.soh-tab-content {
+    padding: 10px;
+    background-color: white;
+    margin-top: 15px;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 15px;
+}
+table.data_table {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.soh-tab-content table.data_table tr.soh_table_headers {
+    text-align: left;
+    background-color: #0071a1;
+}
+.soh-tab-content table.data_table tr.soh_table_headers h3 {
+    color: #fff;
+    padding-left: 10px;
+}
+.soh-tab-content table.data_table tr.soh_table_inner_tr th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    width: 20%;
+    font-weight: 600;
+}
+.soh-tab-content table.data_table tr.soh_table_inner_tr td {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    width: 50%;
+}
+span.soh_store_status_control {
+    background-color: green;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    font-style: normal;
+    line-height: 1;
+}
+img.soh_logo_image {
+    display: inline-block;
+    width: 100px;
+    padding-top: 15px;
+}
+.soh_table_inner_tr div.soh_period {
+    padding-left: 30px;
+}
+span.soh_store_status_note {
+    padding-left: 15px;
+}
